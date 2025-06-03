@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>소개 | 홍길동</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      background-color: white;
+      margin: 0 auto;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555;
+    }
+    .timeline {
+      position: relative;
+      margin: 50px 0;
+      padding-left: 40px;
+      border-left: 4px solid #ccc;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 0;
+      width: 0;
+      height: 100%;
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -13px;
+      top: 5px;
+      width: 14px;
+      height: 14px;
+      background-color: #333;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .timeline-item h3 {
+      font-size: 20px;
+      margin: 0;
+      color: #222;
+    }
+    .timeline-item .date {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    .timeline-item p {
+      font-size: 16px;
+      color: #444;
+      margin-top: 5px;
+    }
+    .home-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .home-button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>자기소개</h1>
+    <p>안녕하세요. 저는 새로운 도전을 즐기며, 사람들과 협업하는 과정 속에서 성장하는 것을 중요하게 여기는 홍길동입니다. 다양한 프로젝트 경험과 실무 중심의 역량을 바탕으로, 창의적인 아이디어를 실행력 있게 실현하는 것을 목표로 하고 있습니다.</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>대전대학교 소방방재학과 입학</h3>
+        <div class="date">2018.03</div>
+        <p>재난 안전과 구조에 관한 이론과 실무를 배움으로써, 안전에 대한 깊은 인식을 갖게 되었습니다.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>소방서 근무 / 코로나 대응팀 활동</h3>
+        <div class="date">2020.01 - 2022.12</div>
+        <p>응급구조사로서 현장 대응과 시스템 개선을 직접 경험하며 위기 대응 능력을 쌓았습니다.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>창업경진대회 수상 및 스타트업 활동</h3>
+        <div class="date">2023.05</div>
+        <p>로고빔 아이디어로 수상하며, 실현 가능한 기획과 발표 역량을 입증하였습니다.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>비즈니스 기획 및 외부 프로젝트 참여</h3>
+        <div class="date">2024 ~ 현재</div>
+        <p>스마트시티, 공공기관 제안서 등 다양한 분야의 기획 작업에 참여하며 현장 실무 경험을 쌓는 중입니다.</p>
+      </div>
+    </div>
+
+    <a class="home-button" href="index.html">홈으로 돌아가기</a>
+  </div>
+</body>
+</html>

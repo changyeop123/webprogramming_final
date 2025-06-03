@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>경력 | 홍길동</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      background-color: white;
+      margin: 0 auto;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .timeline {
+      position: relative;
+      margin: 50px 0;
+      padding-left: 40px;
+      border-left: 4px solid #ccc;
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -13px;
+      top: 5px;
+      width: 14px;
+      height: 14px;
+      background-color: #333;
+      border-radius: 50%;
+    }
+    .timeline-item h3 {
+      font-size: 20px;
+      margin: 0;
+      color: #222;
+    }
+    .timeline-item .date {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    .timeline-item p {
+      font-size: 16px;
+      color: #444;
+      margin-top: 5px;
+    }
+    .home-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .home-button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>경력</h1>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>응급의료 분야 실무</h3>
+        <div class="date">2020.01 ~ 2022.12</div>
+        <p>소방서 코로나19 대응팀 소속으로, 환자 이송 및 응급 대응을 담당하며 약 3년간 현장 경험을 축적.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>창업경진대회 수상</h3>
+        <div class="date">2023.05</div>
+        <p>동구청 창업경진대회에서 '로고빔 안전 유도 기술'로 수상. 제안서 작성 및 발표 주도.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>공공 프로젝트 및 민간 제안서 참여</h3>
+        <div class="date">2023.07 ~ 현재</div>
+        <p>스마트시티 구축, 로컬 마케팅, 기관 제안서 작성 등 다수 기획에 기여.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>학생 창업 동아리 기획 및 멘토링</h3>
+        <div class="date">2024.01 ~ 현재</div>
+        <p>대학교 창업 동아리의 팀장 역할을 수행하며, 후배 대상 발표 멘토링 및 실전 기획 활동 지도.</p>
+      </div>
+    </div>
+
+    <a class="home-button" href="index.html">홈으로 돌아가기</a>
+  </div>
+</body>
+</html>
